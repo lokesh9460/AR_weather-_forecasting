@@ -2,7 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="/static/CSS/style.css">
+    <link rel="stylesheet" type="text/css" href static/CSS/style.css">
     <title>Interview Simulator</title>
 
   </head>
@@ -21,7 +21,7 @@
       <div class="column_home" id="left-col" align="center">
         <img src = "/static/CSS/images/video.png" width="100%">
         <div style="width:70%; text-align:justify; align-content:center; display:inline-block;">
-          <p> Use the video interview simulator and get a feedback on how our algorithm interprets your facial emotions compared to other candidates.</p>
+          <p> Use the video analysis simulator and get a feedback on how our algorithm interprets your facial emotions compared to other candidates.</p>
           <br>
           <p> You will be provided a feedback on your facial emotions such as :
           <ul>
@@ -43,7 +43,7 @@
       <div class="column_home" id="left-col" align="center">
         <img src = "/static/CSS/images/audio.png" width="100%">
         <div style="width:70%; text-align:justify; align-content:center; display:inline-block;">
-          <p> Use the audio interview simulator and get a feedback on how our algorithm interprets your vocal emotions compared to other candidates.</p>
+          <p> Use the audio analysis simulator and get a feedback on how our algorithm interprets your vocal emotions compared to other candidates.</p>
           <br>
           <p> You will be provided a feedback on your vocal emotions such as :
           <ul>
@@ -65,7 +65,7 @@
       <div class="column_home" id="left-col" align="center">
        <img src = "/static/CSS/images/text.png" width="100%">
          <div style="width:70%; text-align:justify; align-content:center; display:inline-block;">
-           <p> Use the text interview simulator and get a feedback on how our algorithm interprets your psychological traits through compared to other candidates.</p>
+           <p> Use the text analysis simulator and get a feedback on how our algorithm interprets your psychological traits through compared to other candidates.</p>
            <br>
            <p> You will be provided a feedback on your Big Five Psychological traits, which include :
            <ul>
@@ -88,7 +88,7 @@
     -->
      <div class="column_home" id="left-col" align="center">
          <form action="/video" method="post" align="center">
-         <input type="submit" name="video" value="Video Interview" align="center">
+         <input type="submit" name="video" value="Video Analysis" align="center">
        </form>
      </div>
 
@@ -97,7 +97,7 @@
      -->
      <div class="column_home" id="left-col" align="center">
          <form action="/audio_index" method="post" align="center">
-         <input type="submit" name="audio_index" value="Audio Interview" align="center">
+         <input type="submit" name="audio_index" value="Audio Analysis" align="center">
        </form>
      </div>
 
@@ -106,7 +106,7 @@
      -->
     <div class="column_home" id="left-col" align="center">
         <form action="/text" method="post" align="center">
-          <input type="submit" name="text" value="Text Interview" align="center">
+          <input type="submit" name="text" value="Text Analysis" align="center">
         </form>
     </div>
 </div>
@@ -123,6 +123,13 @@
     <a href="/rules">How does it work ?</a>
     <br>
     <br>
+	<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
 
   </body>
 </html>
