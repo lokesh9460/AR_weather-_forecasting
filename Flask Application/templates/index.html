@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
+ <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href static/CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/CSS/style.css">
     <title>Interview Simulator</title>
 
   </head>
@@ -15,7 +22,7 @@
  {% block body %}
 
   <!--
-  Video Interview presentation
+  Video analysis presentation
   -->
   <div class="row">
       <div class="column_home" id="left-col" align="center">
@@ -38,7 +45,7 @@
       </div>
 
       <!--
-      Audio Interview presentation
+      Audio analysis presentation
       -->
       <div class="column_home" id="left-col" align="center">
         <img src = "/static/CSS/images/audio.png" width="100%">
@@ -60,7 +67,7 @@
       </div>
 
       <!--
-      Text Interview presentation
+      Text analysis presentation
       -->
       <div class="column_home" id="left-col" align="center">
        <img src = "/static/CSS/images/text.png" width="100%">
@@ -123,13 +130,6 @@
     <a href="/rules">How does it work ?</a>
     <br>
     <br>
-	<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-<script>
-  function addDarkmodeWidget() {
-    new Darkmode().showWidget();
-  }
-  window.addEventListener('load', addDarkmodeWidget);
-</script>
 
   </body>
 </html>
