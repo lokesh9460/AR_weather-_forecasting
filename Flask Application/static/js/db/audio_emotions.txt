@@ -1,7 +1,5 @@
 EMOTIONS
 Neutral
-Angry
-Disgust
 Neutral
 Neutral
 Neutral
@@ -9,6 +7,8 @@ Neutral
 Neutral
 Neutral
 Neutral
-Surprise
-Disgust
-Disgust
+Neutral
+Neutral
+Neutral
+Neutral
+Neutral
