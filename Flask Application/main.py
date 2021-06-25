@@ -429,7 +429,7 @@ def text_pdf():
     df_mean.columns = ['Trait', 'Value']
     
     df_mean.to_csv('static/js/db/text_mean.txt', sep=',', index=False)
-    trait_others = df_mean.ix[df_mean['Value'].idxmax()]['Trait']
+    trait_others = df_mean.loc[df_mean['Value'].idxmax()]['Trait']
     
     probas = [int(e*100) for e in probas]
     
