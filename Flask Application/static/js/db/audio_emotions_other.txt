@@ -752,3 +752,16 @@ Neutral
 Neutral
 Neutral
 Neutral
+Neutral
+Neutral
+Neutral
+Disgust
+Disgust
+Disgust
+Disgust
+Disgust
+Angry
+Angry
+Angry
+Surprise
+Disgust
